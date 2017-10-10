@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Quiz {
     public static int quantidade;
     public static double soma;
-    public static double getMédia(){return soma / quantidade;}
+    public static double getMédia(){return soma / (double)quantidade;}
     
     private static ArrayList<Questao> questoes;
     public static ArrayList<Questao> getQuestoes(){
